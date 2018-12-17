@@ -2,7 +2,9 @@
 {% include 'includes/variables.html' %}
 
 {% block content %}
+  {% include 'includes/search.html' %}
   <div class="container">
-    {{ content }}
+    <h1>{{ title }}</h1>
+    <gcse:search></gcse:search>
   </div>
 {% endblock %}

@@ -1,0 +1,14 @@
+<header class="mobile">
+  <a href="{{ locale.url }}" class="logo">{% Icon 'logo' %}</a>
+  <button class="burger">
+    <div class="burger__box">
+      <div class="burger__inner"></div> 
+    </div>
+  </button>
+</header>
+<div class="mobile__panel">
+  <nav class="menu" role="navigation">
+    {% include 'components/menu-items.html' %}
+  </nav>
+  {% include 'components/locale.html' %}
+</div>

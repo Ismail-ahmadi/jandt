@@ -9,6 +9,16 @@ const flickity = new Flickity('.gallery', {
   // https://flickity.metafizzy.co/options.html
 });
 
+const burger = document.querySelector('button.burger');
+const burgerActive = 'burger--morph';
+const mobilePanel = document.querySelector('.mobile__panel');
+const mobilePanelActive = 'mobile__panel--open';
+
+burger.addEventListener('click', () => {
+  burger.classList.toggle(burgerActive);
+  mobilePanel.classList.toggle(mobilePanelActive);
+});
+
 // import qs from 'qs';
 // import axios from 'axios';
 // axios
