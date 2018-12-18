@@ -1,5 +1,24 @@
 .search {
 
+  &__bar {
+    box: horizontal middle space-between;
+    border-bottom: 1px solid $line;
+    margin-right: $s;
+    padding: $h $q;
+
+    input {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    svg {
+      size: $s;
+      fill: $gray-400;
+    }
+
+  }
+
   &__result {
     position: relative;
 
