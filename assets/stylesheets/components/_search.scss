@@ -6,6 +6,12 @@
     margin-right: $s;
     padding: $h $q;
 
+    button {
+      border: 0;
+      padding: 0;
+      background-color: transparent;
+    }
+
     input {
       margin: 0;
       padding: 0;
@@ -16,7 +22,6 @@
       size: $s;
       fill: $gray-400;
     }
-
   }
 
   &__result {
